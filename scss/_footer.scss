@@ -1,0 +1,23 @@
+footer {
+    padding-top: 20px;
+    background-color: #343a40; /* Color de fondo oscuro */
+}
+
+footer ul.list-inline li {
+    margin-right: 15px; /* Espacio entre los elementos de la lista */
+    font-size: 16px; /* Tamaño del texto de los enlaces */
+}
+
+footer a {
+    text-decoration: none; /* Sin subrayado en los enlaces */
+    transition: color 0.3s ease; /* Efecto de transición en el cambio de color */
+}
+
+footer a:hover {
+    color: #28a745; /* Cambio de color al pasar el mouse */
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
