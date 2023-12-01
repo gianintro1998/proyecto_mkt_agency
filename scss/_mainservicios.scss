@@ -1,0 +1,34 @@
+.servicios-section .card {
+    height: 100%; /*  todas las tarjetas tienen la misma altura */
+    background-color: rgba(0, 0, 0, 0.1); /* fondo negro difuminado */
+    color: white; /* texto blanco */
+    border: none; /* saca el borde de las tarjetas */
+}
+
+.servicios-section .card-title {
+    color: #ffffff; /* Cambia el color del título de la tarjeta (azul en este caso) */
+}
+
+.servicios-section .card-text, .card-title, .btn {
+    margin-bottom: 0.5rem; /* Ajusta el espacio entre los elementos de la tarjeta */
+}
+
+.card-title,
+.card-text {
+  color: white;
+  text-shadow: $miSombraDeTexto; 
+}
+.custom-btn {
+    margin-bottom: auto;
+}
+.card-body {
+    position: relative;
+    z-index: 1;
+  }
+
+  .card {
+    position: relative;
+    overflow: hidden;
+  }
+
+ 

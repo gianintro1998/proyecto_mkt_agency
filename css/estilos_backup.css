@@ -1,0 +1,64 @@
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7; 
+  }
+
+  .card-body {
+    position: relative;
+    z-index: 1;
+  }
+
+  .card-title,
+  .card-text {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  .texto-contacto {
+    color: #0f0f0e;
+} 
+
+.carousel-item img {
+    max-height: 300px; /* establece la altura máxima */
+    width: 100%; /* asegura que la imagen se expanda para llenar el contenedor */
+    object-fit: cover; /* mantiene la relación y cubre completamente el contenedor */
+    margin: auto;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ajusta los valores según tu preferencia */
+}
+
+.servicios-section .card {
+    height: 100%; /*  todas las tarjetas tienen la misma altura */
+    background-color: rgba(0, 0, 0, 0.1); /* fondo negro difuminado */
+    color: white; /* texto blanco */
+    border: none; /* saca el borde de las tarjetas */
+}
+
+.servicios-section .card-title {
+    color: #ffffff; /* Cambia el color del título de la tarjeta (azul en este caso) */
+}
+
+.servicios-section .card-text, .card-title, .btn {
+    margin-bottom: 0.5rem; /* Ajusta el espacio entre los elementos de la tarjeta */
+}
+.custom-btn {
+    margin-bottom: auto;
+}

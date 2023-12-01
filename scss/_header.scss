@@ -1,0 +1,19 @@
+.div{
+    font-size: map-get($fuentes, regular);
+}
+
+.btn-custom {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Quitar subrayado */
+    transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+.btn-custom:hover {
+    background-color: #ffffffa0; /* Cambiar color de fondo al pasar el mouse */
+    color: #fff;
+}
+
+
